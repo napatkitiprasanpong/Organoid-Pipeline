@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="docs/orgpipe-thumbnail.png" alt="OrgPipe: analysis pipeline for brain-organoid MEA recordings" width="100%">
-</p>
 
 # OrgPipe (Organoid-Pipeline)
 
