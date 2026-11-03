@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+# recordings are reproducible or large; keep notes in data/README.md instead
+data/*.h5
+data/*.hdf5
+data/*.npz
