@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "orgpipe"
-version = "0.0.1"
+version = "0.0.2"
 description = "Open-source pipeline for analysing multi-electrode array (MEA) recordings from brain organoids."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -13,10 +13,12 @@ dependencies = [
     "scipy>=1.11",
     "matplotlib>=3.8",
     "h5py>=3.10",
+    "scikit-learn>=1.3",
 ]
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]
+spikeinterface = ["spikeinterface", "probeinterface"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
